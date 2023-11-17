@@ -2,6 +2,7 @@
   "name": "react-weather",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://salesmarket.site/react-weather/build",
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
