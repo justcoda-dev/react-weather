@@ -1,0 +1,13 @@
+.searchButton {
+  border: none;
+  background: orange;
+  font-weight: bold;
+  transition: .2s;
+    font-size: 16px;
+}
+
+.searchButton:hover {
+  cursor: pointer;
+  background: orange;
+  color: white;
+}

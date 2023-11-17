@@ -1,0 +1,21 @@
+.searchList {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    max-height: 300px;
+    overflow: auto;
+    background: transparent;
+}
+
+.searchItem {
+    padding: 5px 0;
+    font-size: 20px;
+    background: transparent;
+}
+
+.searchItem:hover {
+    cursor: pointer;
+
+}

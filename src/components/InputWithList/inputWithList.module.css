@@ -1,0 +1,23 @@
+.inputWithList {
+    position: relative;
+}
+
+.list {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 55px;
+    background: #333333;
+    color: white;
+    overflow: auto;
+    /* this will hide the scrollbar in mozilla based browsers */
+    overflow: -moz-scrollbars-none;
+    scrollbar-width: none;
+    /* this will hide the scrollbar in internet explorers */
+    -ms-overflow-style: none;
+}
+
+.list::-webkit-scrollbar {
+    width: 0 !important;
+    display: none;
+}

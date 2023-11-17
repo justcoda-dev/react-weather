@@ -1,0 +1,13 @@
+/*cards*/
+.wrapper {
+    display: flex;
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+/*card item*/
+.card {
+    text-align: center;
+    font-size: 14px;
+    margin: 10px;
+}

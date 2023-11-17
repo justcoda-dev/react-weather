@@ -1,0 +1,83 @@
+.wrapper {
+
+}
+
+/*@media screen and (max-width: 1000px) {*/
+/*.main {*/
+/*    display: none;*/
+/*}*/
+/*}*/
+.background {
+    height: calc(100vh - 80px);
+
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    width: 100%;
+}
+
+.inner {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    height: 100%;
+}
+
+.temperature {
+    font-size: 140px;
+    /*font-weight: bold;*/
+}
+
+.cityAndTime {
+}
+
+.city {
+    font-size: 60px;
+    /*font-weight: bold;*/
+}
+
+.time {
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+}
+
+.list {
+    position: relative;
+    z-index: 1;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list::before {
+    position: absolute;
+    content: "";
+    background: black;
+    opacity: 20%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.listBackground {
+    position: absolute;
+    background-size: cover;
+    z-index: -1;
+    background: rgba(51, 51, 51, 0.61);
+    width: 100%;
+    height: 100%;
+}
+
+.tableStyle {
+    font-size: 30px;
+    color: white;
+}
+
+.tableStyle > tbody > tr > td {
+
+}
